@@ -1,0 +1,12 @@
+package JavaStudy;
+
+public class Java_Method {
+	public static String[] getMembers() {
+		String[] members = {"minho", "hacosa", "croosfit"};
+		return members;
+	}
+	
+	public static void Main(String[] args) {
+		String[] members = getMembers();
+	}
+}

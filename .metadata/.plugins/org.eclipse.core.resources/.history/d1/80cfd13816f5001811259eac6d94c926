@@ -1,0 +1,9 @@
+package JavaStudy;
+
+public class Java_ClassVarMethod {
+
+	public static void main(String[] args) {
+		static double PI = 3.14;
+	}
+
+}

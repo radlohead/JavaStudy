@@ -1,0 +1,10 @@
+package JavaStudy;
+
+import java.util.Calendar;
+
+public class Java_Generic2 {
+	public static void main(String[] args) {
+		Calendar cal = Calendar.getInstance();
+		System.out.println(instanceof cal.get(Calendar.YEAR));
+	}
+}

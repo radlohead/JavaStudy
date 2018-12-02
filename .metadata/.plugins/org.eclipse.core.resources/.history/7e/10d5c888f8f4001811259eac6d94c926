@@ -1,0 +1,13 @@
+package JavaStudy;
+
+public class Java_variable {
+
+	public static void main(String[] args) {
+		long num = 128000000000L;
+		double a = 2.2;
+		float b = 2.2F;
+		
+		System.out.println(a + "," + b);
+	}
+
+}

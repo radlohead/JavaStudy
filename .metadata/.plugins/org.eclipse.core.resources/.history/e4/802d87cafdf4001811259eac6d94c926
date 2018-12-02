@@ -1,0 +1,13 @@
+package JavaStudy;
+
+public class Java_variable {
+
+	public static void main(String[] args) {
+		String[] classGroup = { "aaa", "bbb", "ccc"};
+		
+		for(String e: classGroup) {
+			System.out.println(e);
+		}
+	}
+
+}

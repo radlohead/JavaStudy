@@ -1,0 +1,11 @@
+package JavaStudy;
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Java_Method {
+	public static void main(String[] args) {
+		
+	}
+}

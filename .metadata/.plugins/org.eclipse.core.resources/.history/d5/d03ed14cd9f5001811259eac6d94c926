@@ -1,0 +1,32 @@
+package JavaStudy;
+
+class Java_ContructorV3 {
+	int left;
+	int right;
+	
+	public Java_ContructorV3 () {
+		
+	}
+	
+	public Java_ContructorV3 (int left, int right) {
+		this.left = left;
+		this.right = right;
+	}
+	
+	public int sum(int left, int right) {
+		return this.left + this.right;
+	}
+}
+
+public class Java_ContructorV2 extends Java_ContructorV3 {
+	public Java_ContructorV2() {
+	}
+	
+	public Java_ContructorV2(int left, int right) {
+		super(left, right);
+	}
+	
+	public static void main(String[] args) {
+		Java_ContructorV2 c2 = new Java_ContructorV2();
+	}
+}

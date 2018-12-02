@@ -1,0 +1,15 @@
+package JavaStudy;
+
+public class Java_variable {
+
+	public static void main(String[] args) {
+		long num = 128000000000L;
+		double a = 2.2;
+		float b = 2.2F;
+		String c = "minho";
+		String d = "minho";
+		
+		System.out.println(c.equals(d));
+	}
+
+}

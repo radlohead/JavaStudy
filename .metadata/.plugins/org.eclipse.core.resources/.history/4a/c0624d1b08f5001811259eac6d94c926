@@ -1,0 +1,10 @@
+package JavaStudy;
+
+import java.util.Scanner;
+
+public class Java_InputOutput {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println(args.length);
+	}
+}

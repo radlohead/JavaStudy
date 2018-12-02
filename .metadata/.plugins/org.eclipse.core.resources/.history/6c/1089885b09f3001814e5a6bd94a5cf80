@@ -1,0 +1,15 @@
+package JavaStudy;
+
+import java.time.LocalDateTime;
+import java.time.Month;
+
+public class Java_Time {
+
+	public static void main(String[] args) {
+		LocalDateTime time = LocalDateTime.now();
+		System.out.println(time);
+		
+		LocalDate ld1 = LocalDate.of(2018, Month.NOVEMBER, 30);
+	}
+
+}

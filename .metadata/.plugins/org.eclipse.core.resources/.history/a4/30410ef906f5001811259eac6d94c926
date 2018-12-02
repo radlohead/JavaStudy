@@ -1,0 +1,20 @@
+package JavaStudy;
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Java_Method {
+	public static String[] getMembers() {
+		String[] members = {"minho", "hacosa", "크로스핏"};
+		return members;
+	}
+	
+	public static void main(String[] args) {
+		String[] members = getMembers();
+		
+		for(String e: members) {
+			System.out.println(e);
+		}
+	}
+}

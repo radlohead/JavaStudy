@@ -1,0 +1,28 @@
+package JavaStudy;
+
+class Java_ContructorV3 {
+	int left;
+	int right;
+	
+	public int sum(int left, int right) {
+		return this.left + this.right;
+	}
+	
+	Java_ContructorV3(){
+		System.out.println(this.left);
+	}
+}
+
+public class Java_ContructorV2 extends Java_ContructorV3 {
+	public Java_ContructorV2() {
+		this.left = 10;
+	}
+	
+	public Java_ContructorV2(int param) {
+		System.out.println(param);
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(this.left);
+	}
+}

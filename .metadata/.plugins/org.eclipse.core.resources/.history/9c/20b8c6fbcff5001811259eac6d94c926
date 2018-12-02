@@ -1,0 +1,23 @@
+package JavaStudy;
+
+public class Java_extends {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class CalculatorV3 {
+	int left;
+	int right;
+	
+	public void setState (int left, int right){
+		this.left = left;
+		this.right = right;
+	}
+	
+	public int sum() {
+		return this.left + this.right;
+	}
+}

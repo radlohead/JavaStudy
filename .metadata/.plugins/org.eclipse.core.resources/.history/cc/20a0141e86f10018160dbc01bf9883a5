@@ -1,0 +1,46 @@
+package JavaStudy;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+public class Java_Map2 {
+	public static void main(String[] args) {
+//		Map<String, String> map = new HashMap<>();
+		
+//		map.put("name", "minho");
+//		map.put("age", 36);
+		
+//		setMap<String, Integer>("age", 36);
+		
+		Name<String> name = new Name<String>();
+		
+		name.setName("minho");
+		System.out.println(name.getName());
+	}
+}
+
+class Name<T> {
+	T name;
+	
+	void setName(T name) {
+		this.name = name;
+	}
+	
+	T getName() {
+		return name;
+	}
+}
+
+class Age<T> {
+	T age;
+	
+	void setAge(T age) {
+		this.age = age;
+	}
+	
+	T getAge() {
+		return age;
+	}
+}

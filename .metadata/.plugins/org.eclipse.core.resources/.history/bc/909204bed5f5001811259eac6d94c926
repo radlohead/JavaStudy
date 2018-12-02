@@ -1,0 +1,17 @@
+package JavaStudy;
+
+public class Java_ContructorV2 {
+
+	public Java_ContructorV2() {
+		
+	}
+	
+	public Java_ContructorV2(int param) {
+		
+	}
+	
+	public static void main(String[] args) {
+		Java_ContructorV2 c1 = new Java_ContructorV2();
+	}
+
+}
