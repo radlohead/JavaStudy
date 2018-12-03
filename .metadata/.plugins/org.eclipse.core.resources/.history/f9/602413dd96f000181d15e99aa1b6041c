@@ -1,9 +1,0 @@
-package JavaStudy;
-
-import java.util.Map;
-
-public class Java_Map2 {
-	public static void main(String[] args) {
-		Map<String, String> map = new Map
-	}
-}
