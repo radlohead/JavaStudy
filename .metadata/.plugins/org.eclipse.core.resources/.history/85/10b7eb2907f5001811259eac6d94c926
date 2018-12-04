@@ -1,7 +1,0 @@
-package JavaStudy;
-
-public class Java_InputOutput {
-	public static void main(String[] args) {
-		
-	}
-}
